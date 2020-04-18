@@ -2,9 +2,9 @@
 
 console.log('Loading function');
 
-const doc = require('dynamodb-doc');
+const doc = require("aws-sdk");
 
-const dynamo = new doc.DynamoDB();
+const dynamo = new doc.DynamoDB.DocumentClient();
 
 
 /**
